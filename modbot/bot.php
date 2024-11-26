@@ -19,7 +19,7 @@ $discord = new Discord([
 
 function traduzirParaIngles($texto) {
     $translate = new TranslateClient([
-        'key' => 'AIzaSyCi238kAGcNKnelKI-WSj8jJ1vr-MAOKS8' 
+        'key' => '' 
     ]);
     
     $translation = $translate->translate($texto, [
